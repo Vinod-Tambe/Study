@@ -1,0 +1,107 @@
+What is React Js
+-> 1) Open Source Javascript Library
+   2) Developed By Facebook (Jordan Walke)
+   3) Used Building User Interface and Single Page Application
+   4) It Follows Component Base Architecture
+   5) Use JSX Syntax
+React Version : 
+-> 19.0.0 (DEC 2024)
+-> 0.3.0 (July 2013)
+-> 1st use in facebook (2011) 
+Why use React Js
+-> 1) Reusable Components – write once, use many times
+   2) High Performance – thanks to virtual DOM
+   3) Easy to Learn – especially with JavaScript background
+   4) Component-Based Architecture
+Benefits of using React.js
+-> 1) Component-Based Architecture
+   2) High Performance (Virtual DOM)
+   3) Reusable Components
+   4) JSX Syntax (Combines HTML with JavaScript logic)
+   5) Easy to Learn
+   6) Easy Testing (Compatible with testing tools like Jest, React Testing Library, Enzyme)
+What is an SPA (Single Page Application)?
+->  A Single Page Application (SPA) is a web application or website that loads a single HTML page
+    and dynamically updates the content as the user interacts with the app, without reloading the 
+    entire page from the server.
+What Is JSX In React?
+-> 1) JSX stands for Javascript XML
+   2) JSX Allows To Write HTML Code Inside Javascript
+Rules Of JSX
+-> 1) JSX must have one root element.
+   2) You use className instead of class.
+   3) It supports JavaScript inside curly braces {}.
+   4) Compulsory all tag are Close
+React Best Folder Structure 
+--------------------------------------
+my-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/          # Images, fonts, icons, etc.
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level components (route-level)
+│   ├── layouts/         # Shared layout components (Header, Footer, etc.)
+│   ├── hooks/           # Custom React hooks
+│   ├── context/         # React Contexts (for state management)
+│   ├── services/        # API calls, helper functions
+│   ├── utils/           # Utility functions/helpers
+│   ├── App.js           # Root component
+│   ├── index.js         # Entry point (renders App)
+│   └── styles/          # Global styles (CSS, SCSS, etc.)
+├── .gitignore
+├── package.json
+└── README.md
+
+-------------------------------------
+* Index.js
+import React from 'react';
+import reactDOM from 'react-dom/client';
+import App from './App';
+
+const root = reactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>);
+-------------------------------------
+* App.js
+import React from 'react';
+function App()
+{
+  return (
+    <>HELLOW</>
+    );
+}
+export default App;
+-------------------------------------
+What is Props ?
+-> 1) Its Use To Pass Data Parent Component To child Components.
+   2) Inside the child component, props can be accessed as an object.
+   3) child component can not modify props
+   4) props are pass to child component as a attribute
+   5) set default value of props from child component side using .defaultProps method
+          syntax : ChildComponent.defaultProps = { message: "Default message" };
+   6) Props are pass any datatype of values
+   7) one component set n number props
+   8) you can use dublicate props (key) but Child Access Only last props.
+   9)Default Value of Props is undefined 
+Syntax : 
+ function ParentComponent() {
+  const name = "John"; // Choose dynamically or statically
+  return <ChildComponent name={name} />;
+}
+-----------------------------------
+ function ChildComponent({ name }) {
+  return <div>{name}</div>;
+}
+ChildComponent.defaultProps = {
+  name: "John",
+};
+// Now, even if the parent doesn't pass 'name', it will print 'John'
+--------------------------------------
+function ChildComponent({ name = "John" }) {
+  return <div>{name}</div>;
+}
+-----------------------------------
+
+
+
+
