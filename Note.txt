@@ -102,6 +102,27 @@ function ChildComponent({ name = "John" }) {
 }
 -----------------------------------
 
-
-
-
+What Is State ?
+-> 1) State is an object that holds data specific to a component
+   2) state controls component behavior and rendering component
+   3) make a state using useState hook
+   4) It changes over time, like when a user clicks a button.
+   5) When state changes, the UI updates.
+   6) State is private to the component – not shared like props.
+Syntax : 
+    const [stateVariable, setStateFunction] = useState(initialValue);
+-------------------------------------
+Ternary Operator
+-> 1) if...else.
+   condition ? trueValue : falseValue
+   2) condition && doSomething
+  {isAdmin && <AdminPanel />
+   3) Nested If else
+***
+   const status = "guest";
+const message = status === "admin"
+  ? "Welcome, admin"
+  : status === "user"
+    ? "Hello, user"
+    : "Please log in";
+***
