@@ -101,17 +101,6 @@ function ChildComponent({ name = "John" }) {
   return <div>{name}</div>;
 }
 -----------------------------------
-
-What Is State ?
--> 1) State is an object that holds data specific to a component
-   2) state controls component behavior and rendering component
-   3) make a state using useState hook
-   4) It changes over time, like when a user clicks a button.
-   5) When state changes, the UI updates.
-   6) State is private to the component – not shared like props.
-Syntax : 
-    const [stateVariable, setStateFunction] = useState(initialValue);
--------------------------------------
 Ternary Operator
 -> 1) if...else.
    condition ? trueValue : falseValue
@@ -126,3 +115,91 @@ const message = status === "admin"
     ? "Hello, user"
     : "Please log in";
 ***
+---------------------------
+What is Hooks
+-> 1) Hooks are functions in React that let you add features like storing data or running code when something changes, inside simple function components.
+   2) Used only in functional components
+   3) All hooks start with use keyword
+   4) Types of hooks - [useState,useEffect,useContext,useRef,useMemo,useCallback]
+   5) Use useMemo and useCallback Avoid unnecessary re-rendering components.
+   6) improve Loading Speed And Performance
+What Is State (useState) ?
+-> 1) State is an object that holds data specific to a component
+   2) state controls component behavior and rendering component
+   3) make a state using useState hook
+   4) It changes over time, like when a user clicks a button.
+   5) When state changes, the UI updates.
+   6) State is private to the component – not shared like props.
+Syntax : 
+    const [stateVariable, setStateFunction] = useState(initialValue);
+------------------------------------
+What Is useEffect Hooks ?
+-> The useEffect hook in React is used to run some code after the component has rendered.
+   Used : 1 ) Fetching data from an API.
+          2 ) Updating the DOM manually
+          3 ) Logging
+   Syntax : 
+---------------------------------
+    useEffect(() => {
+      // Your code to run (side effect) goes here
+    }, [dependencies]);
+---------------------------------
+Example 1: Run effect only once
+-----------------------------------
+useEffect(() => {
+  console.log('Component has mounted');
+}, []); // Empty array means run once, after initial render
+
+-----------------------------------
+Example 2: Run effect when a specific variable changes:
+useEffect(() => {
+  console.log(`The count is: ${count}`);
+}, [count]); // Runs whenever `count` changes
+-----------------------------------
+What is useContext ?
+-> 1) share global data to one components to another without having to pass props down manually at every level.
+   2) Benefit: Access data without manually passing props
+Syntax :
+----------------------------------
+import React, { createContext, useContext, useState } from 'react';
+
+// Create a context
+const MyContext = createContext();
+----------------------------------
+Example : 
+----------------------------------
+import React, { createContext, useContext, useState } from 'react';
+
+// Create context
+const MyContext = createContext();
+
+const MyProvider = ({ children }) => {
+  const [value, setValue] = useState("Hello, World!");
+  return (
+    <MyContext.Provider value={{ value, setValue }}>
+      {children}
+    </MyContext.Provider>
+  );
+};
+
+const MyComponent = () => {
+  const { value, setValue } = useContext(MyContext);
+
+  return (
+    <div>
+      <p>{value}</p>
+      <button onClick={() => setValue("New Value")}>Change Value</button>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <MyProvider>
+      <MyComponent />
+    </MyProvider>
+  );
+};
+
+export default App;
+----------------------------------------------------
