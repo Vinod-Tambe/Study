@@ -1,12 +1,5 @@
-[https://excalidraw.com/#json=zPbhEOdwVu6DRn3ZKDnxN,tVoHoOQYnxWTn3lSPcJ3Kg](https://excalidraw.com/#json=mnHKCBKWVFFInftb0J2NA,u6Y6ovZLjtLwGxLJsPXgrQ)
+(https://www.flipkart.com/bata-knox-leather-boots-men/p/itmbfebe4f456139)
 
-
-
-
-https://excalidraw.com/#json=mnHKCBKWVFFInftb0J2NA,u6Y6ovZLjtLwGxLJsPXgrQ
-
-
-https://informatica.enterprisetalk.com
 
 
 <!DOCTYPE html>
