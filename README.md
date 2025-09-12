@@ -1,6 +1,6 @@
 (https://www.flipkart.com/bata-knox-leather-boots-men/p/itmbfebe4f456139)
 
-https://excalidraw.com/#json=rpx4wuI8v-XTiZuDa2ue-,1irkQbsx1dzGR-vcxTYjLg
+(https://excalidraw.com/#json=QqGNUhj_5GeRitrJ2hrz2,Jf2uOwo3_tZHQZca9PHPCw)
 
 
 <!DOCTYPE html>
