@@ -1,0 +1,76 @@
+
+30-Day Node.js Deep Learning Plan
+
+Day	Topic	                                                        Description
+
+1	Intro to Node.js	                                        What is Node, event loop, blocking vs non-blocking I/O, where Node is used
+
+2	Installing & Running Node.js                             	REPL, running .js files, using node, exploring global objects
+
+3	Modules & Exports						CommonJS, require, module.exports, folder structure, file splitting
+
+4	npm & package.json						Installing packages, package.json, scripts, devDependencies
+
+5	Built-in Modules						fs, path, os, http, url – with small examples
+
+6	File System Deep Dive						Reading/writing files sync/async, streams, pipes, file watchers
+
+7	Events & EventEmitter						Custom events, EventEmitter, creating and handling events
+
+8	Asynchronous Programming in Node				Callbacks, Promises, Async/Await, error handling patterns
+
+9	Creating a Basic HTTP Server					http module, request/response, routes, headers, status codes
+
+10	Routing Without Frameworks					Manual routing, parsing URL/query, dynamic routing basics
+
+🧱 WEEK 2 – Express.js + API Building
+
+Day	Topic								Description
+
+11	Intro to Express.js						Installing, setting up, basic server with routes
+
+12	Express Router & Middleware					app.use(), custom middleware, express.Router
+
+13	Request & Response Objects					Handling query/body/params, status codes, headers
+
+14	Serving Static Files & Templating				express.static, EJS/Pug (basic view engine setup)
+
+15	POST Requests & Body Parsers					body-parser, form submission, JSON body parsing
+
+16	Error Handling in Express					next(), error middleware, 404 and 500 handling
+
+17	REST API – CRUD App (Part 1)					Set up full CRUD routes and controllers (GET/POST)
+
+18	REST API – CRUD App (Part 2)					Complete PUT/DELETE, test with Postman/Insomnia
+
+🗄️ WEEK 3 – Database, Auth, Testing
+
+Day	Topic								Description
+
+19	Intro to MongoDB + Mongoose					Schema, model, connecting DB, creating collections
+
+20	CRUD with MongoDB (Mongoose)					Create, Read, Update, Delete with validation
+
+21	MVC Architecture in Node					Split routes/controllers/models/services/views
+
+22	Authentication – JWT						Login/register, hashing with bcrypt, generate & verify JWT
+
+23	Protecting Routes & Middleware					Auth middleware, protecting API endpoints
+
+24	Express Sessions & Cookies					Cookie-based auth, express-session, security practices
+
+25	Unit Testing with Jest or Mocha	                		Test structure, writing tests for functions and APIs
+
+26	API Testing with Postman/Newman					Testing collections, automating test runs
+
+🚀 WEEK 4 – Advanced Topics & Final Project
+
+Day	Topic								Description
+
+27	WebSockets with Socket.io 					Real-time communication (chat app / notifications)
+
+28	Node.js with React (Full-Stack Intro)				CORS, serving React from Node, basic integration
+
+29	Security & Deployment						Helmet, rate-limiting, .env configs, deploying to Render/Vercel
+
+30	Final Project + Review						Build a complete RESTful API or MERN mini project
