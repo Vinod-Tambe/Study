@@ -42,3 +42,17 @@ padding: 10px 15px 5px;
 </body>
 </html>
 
+
+
+
+Host / Endpoint  : unicorn-db.clci2au8m5qz.ap-south-1.rds.amazonaws.com    
+
+
+Port:  5432  
+
+Database name : unicorn-db
+
+Username : unicorn_admin
+
+Password  : Unicorn#3445#
+
