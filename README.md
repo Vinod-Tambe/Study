@@ -51,11 +51,7 @@ padding: 10px 15px 5px;
 Host / Endpoint  : unicorn-db.clci2au8m5qz.ap-south-1.rds.amazonaws.com    
 
 
-Port:  5432  
-
-Database name : unicorn-db
-
-Username : unicorn_admin
-
-Password  : Unicorn#3445#
+event bubbling
+event prropogationn
+event capturing
 
