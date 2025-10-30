@@ -67,3 +67,78 @@ event bubbling
 event prropogationn
 event capturing
 
+
+
+
+Thank you for showing interest in career opportunities with Senwell Solutions. I received your profile on LinkedIn, and we would like to proceed further with your application.
+ 
+Kindly share the following details with Resume :
+ 
+Job Application Details:
+ 
+Position Applied For:
+ 
+Full Name:
+ 
+Contact Number:
+ 
+Date of Birth:
+ 
+Email ID:
+ 
+Highest Qualification:
+ 
+College/University Name:
+ 
+Year of Passing:
+ 
+Total Work Experience:
+ 
+Relevant Experience:
+ 
+Current CTC (Annual):
+ 
+Monthly In-hand Salary:
+ 
+Expected Salary:
+ 
+Current Company Name:
+ 
+Reason for Job Change:
+ 
+10th Passing Year & Percentage:
+ 
+12th Passing Year & Percentage:
+ 
+Graduation Year & Percentage:
+ 
+Any Gap after Graduation (Yes/No):
+ 
+If Yes, Reason for Gap:
+ 
+Minimum Notice Period:
+ 
+Current Location:
+ 
+Home Town/Location:
+ 
+Key Skills:
+Family
+Father occupation - 
+Mother occupation-
+Brother occupation-
+Sister occupation-
+husband / wife occupation-
+
+ 
+Note: If you have already shared your resume and details, please disregard this message.
+ 
+Looking forward to your response.
+ 
+Warm regards,
+Deepanshi (HR – Senwell Solutions)
+📧 Email:snrecruter5@gmail.com                                                                                                                                                🏢 Office No. 715 & 716, 7th Floor, Geras Imperium,
+Near EON IT Park, Kharadi, Pune, Maharashtra – 411014.
+ 
+Kindly share Resume :
+
