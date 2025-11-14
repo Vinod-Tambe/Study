@@ -147,3 +147,12 @@ Near EON IT Park, Kharadi, Pune, Maharashtra – 411014.
  
 Kindly share Resume :
 
+
+
+
+let days = 30;
+let date = new Date();
+date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+document.cookie = `name=OnDotMediaTestServer; expires=${date.toUTCString()}; path=/`;
+
+
