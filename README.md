@@ -142,7 +142,11 @@ Looking forward to your response.
  
 Warm regards,
 Deepanshi (HR – Senwell Solutions)
-📧 Email:snrecruter5@gmail.com                                                                                                                                                🏢 Office No. 715 & 716, 7th Floor, Geras Imperium,
+📧 Email:snrecruter5@gmail.com     
+
+
+
+🏢 Office No. 715 & 716, 7th Floor, Geras Imperium,
 Near EON IT Park, Kharadi, Pune, Maharashtra – 411014.
  
 Kindly share Resume :
@@ -154,5 +158,48 @@ let days = 30;
 let date = new Date();
 date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
 document.cookie = `name=OnDotMediaTestServer; expires=${date.toUTCString()}; path=/`;
+
+
+
+katalyst -
+
+Task- Make frontend in react or angular and upload the excel file limit 5 mb.
+Map this file column to database colum 
+use database mongodb and mysql and postgress sql
+and store data with validation in database
+
+1) hosting
+2) orm
+3) cluster
+4) helmet
+5) datatyoe in js
+6) composite key
+7) unique key
+8) promises
+9) callback function
+10) Normalisation
+11) pure function , Normal function
+12) this keyword
+13) microservices
+14) multi tent system
+15) concurrent customer system
+16) microservices prototype
+17) let , var , const diff
+18) polymorphism
+19) process.nexttick,setimmediate function
+20) Joins
+21) asyncthunc
+22) hooks
+23) how to handle microservices in node js
+24) how to make exe file in node js
+25) how to handle error in node js
+26) event in node js
+27) Websocket in node js
+28) how to connect websocket in node js to frontend
+29) RabbitMQ, Kafka
+30) Graph QL
+
+
+
 
 
