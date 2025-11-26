@@ -1,5 +1,6 @@
 <h3 style="color:brown;"> 14-Day Deep Microservices Roadmap (Node.js Already Completed)</h3>
 <h5>
+    
 DAY 1 — Microservices Core Concepts - Monolith vs microservices - Bounded context (DDD) -
 Scaling strategies - Event-driven vs API-driven TASK: Define 3 microservices + their
 responsibilities DELIVERABLE: Architecture draft
@@ -20,6 +21,7 @@ Product
 
 DAY 6 — API Gateway - Routing - Auth at gateway level - Rate limiting TASK: Build gateway
 routing all service traffic DELIVERABLE: Gateway with security
+
 DAY 7 — Messaging Queue (Kafka/RabbitMQ) - Async events - Producer/Consumer pattern TASK:
 Publish ORDER_CREATED and reduce stock on consume DELIVERABLE: Event-driven stock
 sync
