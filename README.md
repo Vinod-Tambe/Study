@@ -1,9 +1,9 @@
-<h3> 14-Day Deep Microservices Roadmap (Node.js Already Completed)</h3>
+<h3 style="color:brown"> 14-Day Deep Microservices Roadmap (Node.js Already Completed)</h3>
 <h5>
 DAY 1 — Microservices Core Concepts - Monolith vs microservices - Bounded context (DDD) -
 Scaling strategies - Event-driven vs API-driven TASK: Define 3 microservices + their
 responsibilities DELIVERABLE: Architecture draft
-<br>
+
 DAY 2 — System Architecture + Setup - Service boundaries - Database-per-service - API Gateway
 basics TASK: Create project structure + API contracts DELIVERABLE: Swagger/OpenAPI for all
 services
