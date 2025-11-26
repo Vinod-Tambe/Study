@@ -1,7 +1,60 @@
+<h3> 14-Day Deep Microservices Roadmap (Node.js Already Completed)</h3>
+<h5>
+DAY 1 — Microservices Core Concepts - Monolith vs microservices - Bounded context (DDD) -
+Scaling strategies - Event-driven vs API-driven TASK: Define 3 microservices + their
+responsibilities DELIVERABLE: Architecture draft
+
+DAY 2 — System Architecture + Setup - Service boundaries - Database-per-service - API Gateway
+basics TASK: Create project structure + API contracts DELIVERABLE: Swagger/OpenAPI for all
+services
+
+DAY 3 — User Service - Controller-Service-Repo pattern - Validation - JWT auth TASK: Build
+authentication + user CRUD DELIVERABLE: Working User Service
+
+DAY 4 — Product Service - Pagination - Filtering - Redis caching TASK: Build product CRUD +
+cache product list DELIVERABLE: Product Service + Redis
+
+DAY 5 — Order Service - Calling other services - API Composition - Handling distributed
+transactions TASK: Build order creation flow DELIVERABLE: Order Service integrated with User &
+Product
+
+DAY 6 — API Gateway - Routing - Auth at gateway level - Rate limiting TASK: Build gateway
+routing all service traffic DELIVERABLE: Gateway with security
+DAY 7 — Messaging Queue (Kafka/RabbitMQ) - Async events - Producer/Consumer pattern TASK:
+Publish ORDER_CREATED and reduce stock on consume DELIVERABLE: Event-driven stock
+sync
+
+DAY 8 — Service Discovery + Load Balancing - Nginx/Consul - Health checks TASK: Run multiple
+instances + load balance DELIVERABLE: Load-balanced environment
+
+DAY 9 — Resilience & Fault Tolerance - Circuit breaker - Retry pattern - Timeout handling TASK:
+Implement resilient HTTP client DELIVERABLE: Fault-tolerant microservices
+
+DAY 10 — Monitoring & Logging - Distributed logs - Prometheus & Grafana TASK: Add logs +
+metrics endpoint DELIVERABLE: Monitoring dashboard
+
+DAY 11 — Testing Strategy - Unit tests - Integration tests - End-to-end flow tests TASK: Write tests
+for all services DELIVERABLE: Test suite
+
+DAY 12 — Dockerizing Microservices - Dockerfiles - Multi-stage builds - Docker Compose TASK:
+Containerize entire system DELIVERABLE: All services in Docker
+
+DAY 13 — Deployment (Kubernetes/Cloud) - K8s basics - Ingress routing - Autoscaling TASK:
+Deploy to minikube or cloud DELIVERABLE: Live deployment
+
+DAY 14 — Final Optimization - Caching improvements - DB indexing - Performance tuning TASK:
+Build final architecture diagram + optimize services DELIVERABLE: Final system + documentation
+
+</h5>
+
+
+    https://excalidraw.com/#json=Ofg8I23t3Nl-vzvHsw-c8,qIdPrXucWBLAA3wvAtCBaA
+<h4 class="jsx-f99e92ab284ee518 titleh3">Finance</h4>
+
+</body>
+</html>
+
 https://websocket-648i.onrender.com/
-
-
-
 https://www.rajyugsolutions.com/Career.html
 Stackera Canada Inc.
 contact@stackera.io
@@ -25,181 +78,10 @@ Truein
 =>NodeJS Developer
 Perscitus Solutions Private Limited · Pune, Maharashtra, Ind
 https://flowcv.com/resume/csedj5lcna0h
-(https://www.amazon.in/Lymio-T-Shirt-40-43-Regular/dp/B0F9SXZS44/ref=sr_1_24_sspa?crid=PTR6HLU9RE3K&dib=eyJ2IjoiMSJ9.fGZRNsj8gRYrqND0JH050nF54EOsXQQldzR9nfwDSabGECkhNab2TPdpUaylLVnC8cyO0q97YjRQv900oqHng_qnB_DLUHwfHc2wWTZMnF74qzV1L0nmMhypWSkSadkHk9Tqjc_i5luBUBInbqyt6QXPO-AAsO7Dgd84ksWXzBSQxDAKXumXouW5M0tGrpTO3aqs39-e_52GigU-nP5qVxbqcYe5YLP75OTzOWxJ9iZv_t4LOtvB9a1UwSV5SR3st7ezfJyeyWF7BygPeXaumUrmYFD3hZjKp8uIHSduDas.9GrsgcHDK_iajSbiP3UDVJd0h8kXgnxKdMw9E0hYqpo&dib_tag=se&keywords=pct-off-30-&qid=1758634784&sprefix=pct-off-30-%2Caps%2C285&sr=8-24-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&psc=1)
-
-resume : https://www.canva.com/design/DAG1Ab14m-w/ffwNvNVLnQrmtBRFmfExBQ/edit?utm_content=DAG1Ab14m-w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-https://excalidraw.com/#json=7cGMepr72YUkS45tPnYdF,x3R9bsc2joXk4e1MSDek3Q
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<style>
-h4{
-padding: 10px 15px 5px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-bottom: 10px;
-    -webkit-box-shadow: 4px 4px 0 0 black;
-    -moz-box-shadow: 4px 4px 0 0 black;
-    box-shadow: 4px 4px 0 0 black;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    }
-</style>
-<body>
-
-
-
-
-    https://excalidraw.com/#json=Ofg8I23t3Nl-vzvHsw-c8,qIdPrXucWBLAA3wvAtCBaA
-<h4 class="jsx-f99e92ab284ee518 titleh3">Finance</h4>
-
-</body>
-</html>
-
-
-June2001
-
-
-Host / Endpoint  : unicorn-db.clci2au8m5qz.ap-south-1.rds.amazonaws.com    
-
 
 event bubbling
 event prropogationn
 event capturing
-
-
-
-
-Thank you for showing interest in career opportunities with Senwell Solutions. I received your profile on LinkedIn, and we would like to proceed further with your application.
- 
-Kindly share the following details with Resume :
- 
-Job Application Details:
- 
-Position Applied For:
- 
-Full Name:
- 
-Contact Number:
- 
-Date of Birth:
- 
-Email ID:
- 
-Highest Qualification:
- 
-College/University Name:
- 
-Year of Passing:
- 
-Total Work Experience:
- 
-Relevant Experience:
- 
-Current CTC (Annual):
- 
-Monthly In-hand Salary:
- 
-Expected Salary:
- 
-Current Company Name:
- 
-Reason for Job Change:
- 
-10th Passing Year & Percentage:
- 
-12th Passing Year & Percentage:
- 
-Graduation Year & Percentage:
- 
-Any Gap after Graduation (Yes/No):
- 
-If Yes, Reason for Gap:
- 
-Minimum Notice Period:
- 
-Current Location:
- 
-Home Town/Location:
- 
-Key Skills:
-Family
-Father occupation - 
-Mother occupation-
-Brother occupation-
-Sister occupation-
-husband / wife occupation-
-
- 
-Note: If you have already shared your resume and details, please disregard this message.
- 
-Looking forward to your response.
- 
-Warm regards,
-Deepanshi (HR – Senwell Solutions)
-📧 Email:snrecruter5@gmail.com     
-
-
-
-🏢 Office No. 715 & 716, 7th Floor, Geras Imperium,
-Near EON IT Park, Kharadi, Pune, Maharashtra – 411014.
- 
-Kindly share Resume :
-
-
-
-
-let days = 30;
-let date = new Date();
-date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-document.cookie = `name=OnDotMediaTestServer; expires=${date.toUTCString()}; path=/`;
-
-
-
-katalyst -
-
-Task- Make frontend in react or angular and upload the excel file limit 5 mb.
-Map this file column to database colum 
-use database mongodb and mysql and postgress sql
-and store data with validation in database
-
-1) hosting
-2) orm
-3) cluster
-4) helmet
-5) datatyoe in js
-6) composite key
-7) unique key
-8) promises
-9) callback function
-10) Normalisation
-11) pure function , Normal function
-12) this keyword
-13) microservices
-14) multi tent system
-15) concurrent customer system
-16) microservices prototype
-17) let , var , const diff
-18) polymorphism
-19) process.nexttick,setimmediate function
-20) Joins
-21) asyncthunc
-22) hooks
-23) how to handle microservices in node js
-24) how to make exe file in node js
-25) how to handle error in node js
-26) event in node js
-27) Websocket in node js
-28) how to connect websocket in node js to frontend
-29) RabbitMQ, Kafka
-30) Graph QL
-
-
 
 
 
