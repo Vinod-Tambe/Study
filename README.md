@@ -1,50 +1,50 @@
 <h3 style="color:brown;"> 14-Day Deep Microservices Roadmap (Node.js Already Completed)</h3>
 <h5>
     
-DAY 1 — Microservices Core Concepts - Monolith vs microservices - Bounded context (DDD) -
+🔴 DAY 1 — Microservices Core Concepts - Monolith vs microservices - Bounded context (DDD) -
 Scaling strategies - Event-driven vs API-driven TASK: Define 3 microservices + their
 responsibilities DELIVERABLE: Architecture draft
 
-DAY 2 — System Architecture + Setup - Service boundaries - Database-per-service - API Gateway
+🔴 DAY 2 — System Architecture + Setup - Service boundaries - Database-per-service - API Gateway
 basics TASK: Create project structure + API contracts DELIVERABLE: Swagger/OpenAPI for all
 services
 
-DAY 3 — User Service - Controller-Service-Repo pattern - Validation - JWT auth TASK: Build
+🔴 DAY 3 — User Service - Controller-Service-Repo pattern - Validation - JWT auth TASK: Build
 authentication + user CRUD DELIVERABLE: Working User Service
 
-DAY 4 — Product Service - Pagination - Filtering - Redis caching TASK: Build product CRUD +
+🔴 DAY 4 — Product Service - Pagination - Filtering - Redis caching TASK: Build product CRUD +
 cache product list DELIVERABLE: Product Service + Redis
 
-DAY 5 — Order Service - Calling other services - API Composition - Handling distributed
+🔴 DAY 5 — Order Service - Calling other services - API Composition - Handling distributed
 transactions TASK: Build order creation flow DELIVERABLE: Order Service integrated with User &
 Product
 
-DAY 6 — API Gateway - Routing - Auth at gateway level - Rate limiting TASK: Build gateway
+🔴 DAY 6 — API Gateway - Routing - Auth at gateway level - Rate limiting TASK: Build gateway
 routing all service traffic DELIVERABLE: Gateway with security
 
-DAY 7 — Messaging Queue (Kafka/RabbitMQ) - Async events - Producer/Consumer pattern TASK:
+🔴 DAY 7 — Messaging Queue (Kafka/RabbitMQ) - Async events - Producer/Consumer pattern TASK:
 Publish ORDER_CREATED and reduce stock on consume DELIVERABLE: Event-driven stock
 sync
 
-DAY 8 — Service Discovery + Load Balancing - Nginx/Consul - Health checks TASK: Run multiple
+🔴 DAY 8 — Service Discovery + Load Balancing - Nginx/Consul - Health checks TASK: Run multiple
 instances + load balance DELIVERABLE: Load-balanced environment
 
-DAY 9 — Resilience & Fault Tolerance - Circuit breaker - Retry pattern - Timeout handling TASK:
+🔴 DAY 9 — Resilience & Fault Tolerance - Circuit breaker - Retry pattern - Timeout handling TASK:
 Implement resilient HTTP client DELIVERABLE: Fault-tolerant microservices
 
-DAY 10 — Monitoring & Logging - Distributed logs - Prometheus & Grafana TASK: Add logs +
+🔴 DAY 10 — Monitoring & Logging - Distributed logs - Prometheus & Grafana TASK: Add logs +
 metrics endpoint DELIVERABLE: Monitoring dashboard
 
-DAY 11 — Testing Strategy - Unit tests - Integration tests - End-to-end flow tests TASK: Write tests
+🔴 DAY 11 — Testing Strategy - Unit tests - Integration tests - End-to-end flow tests TASK: Write tests
 for all services DELIVERABLE: Test suite
 
-DAY 12 — Dockerizing Microservices - Dockerfiles - Multi-stage builds - Docker Compose TASK:
+🔴 DAY 12 — Dockerizing Microservices - Dockerfiles - Multi-stage builds - Docker Compose TASK:
 Containerize entire system DELIVERABLE: All services in Docker
 
-DAY 13 — Deployment (Kubernetes/Cloud) - K8s basics - Ingress routing - Autoscaling TASK:
+🔴 DAY 13 — Deployment (Kubernetes/Cloud) - K8s basics - Ingress routing - Autoscaling TASK:
 Deploy to minikube or cloud DELIVERABLE: Live deployment
 
-DAY 14 — Final Optimization - Caching improvements - DB indexing - Performance tuning TASK:
+🔴 DAY 14 — Final Optimization - Caching improvements - DB indexing - Performance tuning TASK:
 Build final architecture diagram + optimize services DELIVERABLE: Final system + documentation
 
 </h5>
