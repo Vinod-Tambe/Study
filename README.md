@@ -85,7 +85,7 @@ event bubbling
 event prropogationn
 event capturing
 
-
+https://docs.google.com/spreadsheets/d/1ErOyo8CLCTImtI0KLroz4KxBvFEcHGdpKtxsB3CM0Vc/edit?gid=0#gid=0
 
 Microservices with nest js simple make two api give me all project not use db only static api
 
